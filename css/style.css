@@ -26,23 +26,20 @@ video {
 
 }
 
-.left{
-	width:50%;
-	display:block;
-	padding:0;
-	float:left;
-
-}
-
 .float-left {
 float:left;
 width:300px; // or 33% for equal width independent of parent width
 }
 
-.right{
-	width: 40%;
-	padding:0 2em;
-	float:left;
+.float-right{
+	
+	float:right;
+	width: 300px;
+}
+.float-center{
+	
+	float:center;
+	width: 300px;
 }
 
 
