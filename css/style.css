@@ -22,25 +22,21 @@ video {
 	width:100%;
 	display: flex;
 	flex-flow: row wrap;
-
-
 }
 
-.float-left {
-float:left;
-width:300px; // or 33% for equal width independent of parent width
+.Row
+{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+.Column
+{
+    display: table-cell;
+    background-color: teal;
 }
 
-.float-right{
-	
-	float:right;
-	width: 300px;
-}
-.float-center{
-	
-	float:center;
-	width: 300px;
-}
 
 
 /* Nicer fonts */
