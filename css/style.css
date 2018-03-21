@@ -97,6 +97,15 @@ ul li{
 }
 
 .active{
-	background-color: #008B8B;
+	background-color:#008080;
 	color:teal;
+}
+body{
+  background-color:#008080;
+  font-family:Impact;
+  border: 0.1em solid teal;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 5em;
+  padding-left: 3em;
 }
