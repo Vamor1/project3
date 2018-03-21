@@ -34,6 +34,11 @@ video {
 
 }
 
+.float-left {
+float:left;
+width:300px; // or 33% for equal width independent of parent width
+}
+
 .right{
 	width: 40%;
 	padding:0 2em;
