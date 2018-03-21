@@ -21,6 +21,7 @@ img{
 
 .left{
 	width:50%;
+	display:block;
 	padding:0;
 	float:left;
 
@@ -28,7 +29,6 @@ img{
 
 .right{
 	width: 40%;
-	display:block;
 	padding:0 2em;
 	float:left;
 }
@@ -66,7 +66,7 @@ ul li{
 	font-weight: 400;
 }
 
-/* Top horizontal nav pane*/
+/* Top horizontal navigation pane*/
 
 #header ul {
     list-style-type: none;
@@ -85,7 +85,7 @@ ul li{
 
 #header li a {
     display: block;
-    color: white;
+    color: teal;
     text-align: center;
     padding: 1em;
     text-decoration: none;
@@ -97,6 +97,6 @@ ul li{
 }
 
 .active{
-	background-color: #2ecc71;
-	color:white;
+	background-color: #008B8B;
+	color:teal;
 }
