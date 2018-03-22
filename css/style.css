@@ -66,6 +66,19 @@ p.solid {
 	border-style: solid;
 	}
 
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
 /* Top horizontal navigation pane*/
 
 #header ul {
