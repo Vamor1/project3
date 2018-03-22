@@ -39,23 +39,22 @@ video {
 
 
 
-/* Nicer fonts */
 h1 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    	font-family: "Times New Roman", Times, serif;
 	font-size: 3em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 }
 h3 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    	font-family: "Times New Roman", Times, serif;
 	font-size: 2em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 }
 p {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 1em;
 	font-style: normal;
 	font-variant: normal;
@@ -67,14 +66,6 @@ p.solid {
 	border-style: solid;
 	}
 
-ul li{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-}
-
 /* Top horizontal navigation pane*/
 
 #header ul {
@@ -83,22 +74,24 @@ ul li{
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
-    text-align: center;
-
 }
 
-#header li {
-	float: right;
+li {
+    float: left;
 }
 
-#header li a {
+li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 14px 16px;
     text-decoration: none;
 }
+
+li a:hover {
+    background-color: #111;
+}
+
 
 /* Change the link color to #111 (black) on hover */
 #header li a:hover {
