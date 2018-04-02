@@ -110,6 +110,8 @@ p.oblique {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+	text-align: center; 
+	display: inline-block; 
 }
 
 li {
