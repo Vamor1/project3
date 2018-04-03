@@ -1,115 +1,98 @@
 #content{
-	margin:5vh auto;
-	max-width: 80%;
-  display: flex;
-  flex-direction: column;
+margin:5vh auto;
+max-width: 80%;
+display: flex;
+flex-direction: column;
 }
-
 img{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
-
 video {
-    width: 100%;
-    height: auto;
+width: 100%;
+height: auto;
 }
-
 .item{
-	margin:3em 0;
-	width:100%;
-	display: flex;
-	flex-flow: row wrap;
+margin:3em 0;
+width:100%;
+display: flex;
+flex-flow: row wrap;
 }
-
 .Row
 {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border-spacing: 10px;
+display: table;
+width: 100%;
+table-layout: fixed;
+border-spacing: 10px;
 }
 .Column
 {
-    display: table-cell;
-    background-color: teal;
+display: table-cell;
+background-color: teal;
 }
-
-
-
 h1 {
-    	font-family: "Times New Roman", Times, serif;
-	font-size: 3em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
+font-family: "Times New Roman", Times, serif;
+font-size: 3em;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
 }
 h3 {
-    	font-family: "Times New Roman", Times, serif;
-	font-size: 2em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
+font-family: "Times New Roman", Times, serif;
+font-size: 2em;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
 }
 p {
-	font-family: "Times New Roman", Times, serif;
-	font-size: 1em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 1.5em;
-	
+font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 1.5em;
 }
 p.solid {
-	border-style: solid;
-	}
-
+border-style: solid;
+}
 /* Top horizontal navigation pane*/
-
-
 #header{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-	text-align:center; 
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+text-align:center; 
 }
-
 li {
-    display:inline-block; 
+display:inline-block; 
 }
-
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
-
 li a:hover {
-    background-color: #111;
+background-color: #111;
 }
-
-
 /* Change the link color to #111 (black) on hover */
 #header li a:hover {
-    background-color: #222222;
+background-color: #222222;
 }
-
 .active{
-	background-color:#008080;
-	color:teal;
+background-color:#008080;
+color:teal;
 }
 body{
-  background-color:#008080;
-  font-family:Impact;
-  border: 0.1em solid teal;
-  padding-top: 1em;
-  padding-right: 3em;
-  padding-bottom: 5em;
-  padding-left: 3em;
+background-color:#008080;
+font-family:Impact;
+border: 0.1em solid teal;
+padding-top: 1em;
+padding-right: 3em;
+padding-bottom: 5em;
+padding-left: 3em;
 }
