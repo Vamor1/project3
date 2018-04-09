@@ -87,6 +87,12 @@ text-align:center;
 p.solid {
 border-style: solid;
 }
+p.dotted {
+border-style: dotted;
+}
+p.dashed {
+border-style: dashed;
+}
 /* Top horizontal navigation pane*/
 #header{
 list-style-type: none;
