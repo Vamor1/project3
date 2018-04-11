@@ -135,7 +135,16 @@ padding-left: 3em;
 .indexbody{
 background-color:#e6b3ff;
 font-family:Impact;
-border: 0.1em solid teal;
+border: 0.1em solid purple;
+padding-top: 1em;
+padding-right: 3em;
+padding-bottom: 5em;
+padding-left: 3em;
+}
+.indexbody{
+background-color:#b3b3ff;
+font-family:Impact;
+border: 0.1em solid green;
 padding-top: 1em;
 padding-right: 3em;
 padding-bottom: 5em;
